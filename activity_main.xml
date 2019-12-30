@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@android:color/holo_green_dark">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/mainlayout">
+    <DrawAndroid.DrawCanvas
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/holo_green_dark"    
+        android:id="@+id/Canvas"/>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:max="100"
+        android:layout_weight="3"
+        android:id="@+id/slider"/>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:id="@+id/buttonLayout">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"        
+        android:text="Simple"
+        android:background="@android:color/holo_green_dark"
+        android:id="@+id/SimpleButton"/>
+     <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Bar"
+        android:background="@android:color/holo_green_dark"
+        android:id="@+id/BarButton"/>
+     <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"        
+        android:text="Circle"
+        android:background="@android:color/holo_green_dark"
+        android:id="@+id/CircleButton"/>
+    </LinearLayout>
+    </LinearLayout>
+    
+
+    </android.support.design.widget.CoordinatorLayout>
